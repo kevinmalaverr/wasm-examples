@@ -1,0 +1,13 @@
+{
+  "name": "wasm-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wasm_exec.js",
+  "scripts": {
+    "start": "live-server .",
+    "build": "GOOS=js GOARCH=wasm go build -o main.wasm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
